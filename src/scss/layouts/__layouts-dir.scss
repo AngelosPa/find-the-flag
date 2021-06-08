@@ -1,1 +1,14 @@
 //Import Layout files
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+.body-container {
+  @include flexSetup;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(14, 73, 14);
+}

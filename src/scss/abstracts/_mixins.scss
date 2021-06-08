@@ -1,5 +1,12 @@
 // Mixins
 
-// @mixin name {
-//   // your rules
-// }
+@mixin flexSetup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@mixin nodecoforlinks {
+  text-decoration: none;
+  color: black;
+}
