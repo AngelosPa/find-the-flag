@@ -1,0 +1,2 @@
+(this.webpackJsonpfindtheflag=this.webpackJsonpfindtheflag||[]).push([[0],{10:function(t,e,n){"use strict";n.r(e);var c=n(0),r=n.n(c),i=n(3),d=n.n(i),s=(n(8),n(1));var o=function(){return Object(s.jsx)("div",{children:"dtdrtgfyj"})};d.a.render(Object(s.jsx)(r.a.StrictMode,{children:Object(s.jsx)(o,{})}),document.getElementById("root"))},8:function(t,e,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.91455310.chunk.js.map
