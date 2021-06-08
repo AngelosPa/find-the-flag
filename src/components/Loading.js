@@ -3,8 +3,12 @@ import React from "react";
 const Loading = () => {
   return (
     <React.Fragment>
-      <h4>🕸</h4>
-      <h6>Loading ...</h6>
+      <h3>Loading..</h3>
+      <div id="tria" class="wheel">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+      </div>
     </React.Fragment>
   );
 };

@@ -5,10 +5,70 @@
   padding: 0;
   font-size: 18px;
 }
+body {
+  background-color: rgb(14, 73, 14);
+}
 .body-container {
   @include flexSetup;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: rgb(14, 73, 14);
+}
+.country-info {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-around;
+  flex-direction: row;
+
+  width: 100vw;
+  height: 10vh;
+  flex-wrap: wrap;
+  img {
+    width: 80px;
+  }
+}
+ul {
+  @include nodecoforlinks;
+}
+
+//flag list
+.flag-list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  div {
+    @include flexSetup;
+    font-size: 00.1px;
+    width: 100px;
+    height: 80px;
+    border: 1px rgb(0, 0, 0) solid;
+  }
+  div:hover {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    font-size: 10px;
+    transform: scale(3);
+    background-color: rgba(53, 156, 22, 0.753);
+    img {
+      display: none;
+    }
+  }
+  width: 100vw;
+  height: auto;
+
+  img {
+    width: 60px;
+  }
+}
+.map {
+  @include flexSetup;
+
+  width: 100vw;
+  height: 40vh;
 }
