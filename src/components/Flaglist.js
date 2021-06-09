@@ -11,7 +11,8 @@ const Flaglist = ({ lista }) => {
     const { name, flag, capital, population, region, languages } = obj;
     return (
       <div key={i}>
-        {/* languages: {languages.map(el)} */}
+        language:&nbsp;
+        {languages.map((lang) => lang.name)}&nbsp;
         {name}&nbsp; Region:&nbsp; {region} &nbsp; Capital:&nbsp; {capital}
         &nbsp; Population: &nbsp;{population}&nbsp;
         <img src={flag} alt={name} className="flag" />
@@ -22,3 +23,5 @@ const Flaglist = ({ lista }) => {
   return <React.Fragment>{flags}</React.Fragment>;
 };
 export default Flaglist;
+
+// passo j9F!grr@KNrK7mx
