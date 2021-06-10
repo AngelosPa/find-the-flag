@@ -56,6 +56,12 @@ const App = () => {
         />
         <button type="submit">Search</button>
       </form>
+      <p>
+        <b>
+          Here is a list of every flag that exists til today together with some
+          information about the country
+        </b>
+      </p>
       <button onClick={openFlagList}>SEARCH YOUR FLAG</button>
       <Country results={results} />
       <div className="flag-list">
